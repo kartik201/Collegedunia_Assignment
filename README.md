@@ -33,4 +33,17 @@ Ensure you have the following installed:
    git clone https://github.com/yourusername/college-ratings-web-app.git
    cd college-ratings-web-app
 
+2. **Install Dependencies**:
+   ```bash
+   npm install
+
+3. **Add Data**:
+Place your colleges.json file inside the public directory. This file should contain the college data.
+
+##Usage
+1. Search: Type in the search box to filter the colleges by name.
+2. Sort: Click on the table headers to sort by Collegedunia rating, fees, or user review rating. Clicking the same header toggles between ascending and descending order.
+3. Infinite Scrolling: Scroll down to load more colleges as they become available.
+
+
 
